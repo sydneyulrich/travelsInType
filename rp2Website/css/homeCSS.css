@@ -1,0 +1,385 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+body {
+    background-color: #ED553B;
+    font-family: 'PT Mono', monospace;
+}
+
+.page{
+    width:100vw;
+    height:100vh;
+    position: relative;
+    display:inline-block;
+}
+
+h1{
+    font-size: 8em;
+    padding: 10px 0 0 15px;
+    max-width: 1200px;
+}
+
+h2{
+    font-size: 3em;
+    padding: 10px 0 0 4%;
+    width: 80%;
+
+}
+p{
+    font-size: 1.22em;
+    padding: 15px 0 25px 4.5%;
+    width: 80%;
+    line-height: 1.1;
+}
+
+.start{
+    position:absolute;
+    bottom: 10%;
+    left: 3%;
+}
+.end{
+    bottom: 1%;
+    left:1%;
+    position:absolute;
+}
+.line{
+    border-left: 5px solid black;
+    height: 10%;
+    bottom: 0;
+    position: absolute;
+    left: 2%;
+}
+
+.line2{
+    border-left: 5px solid black;
+    height: 100%;
+    bottom: 0;
+    position: absolute;
+    left: 2%;
+}
+
+/*IMAGES AND THEIR CAPTIONS ON SCROLL*/
+
+.imageHolder1{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    position: relative;
+    width:35%;
+    height: auto;
+    font-family: 'Armata', monospace;
+    line-height: 1.5;
+}
+.imageHolder1 .caption1{
+    opacity: 0;
+    position: absolute;
+    width:94%;
+    height:94%;
+    top:0;
+    left:0;
+    padding: 3%;
+    color: white;
+    background: #173F5F;
+    text-align: left;
+}
+.imageHolder1:hover .caption1 {
+    opacity: 0.7;
+}
+
+
+.imageHolder2{
+     margin-left: auto;
+     margin-right: auto;
+     display: block;
+     position: relative;
+     width:43%;
+     height: auto;
+     font-family: 'Armata', monospace;
+     line-height: 1.5;
+ }
+.imageHolder2 .caption2{
+    opacity: 0;
+    position: absolute;
+    width:94%;
+    height:92%;
+    top:0;
+    left:0;
+    padding: 3%;
+    color: white;
+    background: #173F5F;
+    text-align: left;
+}
+.imageHolder2:hover .caption2 {
+    opacity: 0.7;
+}
+
+.imageHolder3{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    position: relative;
+    width:40%;
+    height: auto;
+    font-family: 'Armata', monospace;
+    line-height: 1.5;
+}
+.imageHolder3 .caption3{
+    opacity: 0;
+    position: absolute;
+    width:94%;
+    height:92%;
+    top:0;
+    left:0;
+    padding: 3%;
+    color: white;
+    background: #173F5F;
+    text-align: left;
+}
+.imageHolder3:hover .caption3 {
+    opacity: 0.7;
+}
+
+.imageHolder4{
+    position: relative;
+    display: inline-block;
+    float:left;
+    width:53%;
+    height: auto;
+    font-family: 'Armata', monospace;
+    line-height: 1.5;
+    padding: 0 1% 0 4.5%;
+
+}
+.imageHolder4 .caption4{
+    opacity: 0;
+    font-size:.91em;
+    position: absolute;
+    width:84%;
+    height:90%;
+    top:0;
+    left:8%;
+    padding: 3%;
+    color: white;
+    background: #173F5F;
+    text-align: left;
+}
+.imageHolder4:hover .caption4 {
+    opacity: 0.7;
+}
+
+.imageHolder5{
+    position: relative;
+    display: inline-block;
+    float:left;
+    width:28%;
+    height: auto;
+    font-family: 'Armata', monospace;
+    line-height: 1.5;
+}
+.imageHolder5 .caption5{
+    opacity: 0;
+    position: absolute;
+    font-size:.91em;
+    width:94%;
+    height:93%;
+    top:0;
+    left:0;
+    padding: 3%;
+    color: white;
+    background: #173F5F;
+    text-align: left;
+}
+.imageHolder5:hover .caption5 {
+    opacity: 0.7;
+}
+
+
+.imageHolder6{
+    position: relative;
+    display: inline-block;
+    float:left;
+    width:45%;
+    height: auto;
+    font-family: 'Armata', monospace;
+    line-height: 1.5;
+    padding: 0 1% 0 4.5%;
+
+}
+.imageHolder6 .caption6{
+    opacity: 0;
+    position: absolute;
+    font-size: .91em;
+    width:85%;
+    height:90%;
+    top:0;
+    left:8%;
+    padding: 3%;
+    color: white;
+    background: #173F5F;
+    text-align: left;
+}
+.imageHolder6:hover .caption6 {
+    opacity: 0.7;
+}
+
+.imageHolder7{
+    position: relative;
+    display: inline-block;
+    float:left;
+    width:45%;
+    height: auto;
+    font-family: 'Armata', monospace;
+    line-height: 1.5;
+}
+.imageHolder7 .caption7{
+    opacity: 0;
+    position: absolute;
+    font-size: .91em;
+    width:94%;
+    height:92%;
+    top:0;
+    left:0;
+    padding: 3%;
+    color: white;
+    background: #173F5F;
+    text-align: left;
+}
+.imageHolder7:hover .caption7 {
+    opacity: 0.7;
+}
+
+.imageHolder8{
+    position: relative;
+    display: inline-block;
+    float:left;
+    width:35%;
+    height: auto;
+    font-family: 'Armata', monospace;
+    line-height: 1.5;
+    padding: 0 1% 0 4.5%;
+
+}
+.imageHolder8 .caption8{
+    opacity: 0;
+    position: absolute;
+    width:80%;
+    height:92%;
+    font-size: .91em;
+    top:0;
+    left: 11%;
+    padding: 3%;
+    color: white;
+    background: #173F5F;
+    text-align: left;
+}
+.imageHolder8:hover .caption8 {
+    opacity: 0.7;
+}
+
+.imageHolder9{
+    position: relative;
+    display: inline-block;
+    float:left;
+    width:25%;
+    height: auto;
+    font-family: 'Armata', monospace;
+    line-height: 1.5;
+}
+.imageHolder9 .caption9{
+    opacity: 0;
+    position: absolute;
+    font-size: .91em;
+    width:94%;
+    height:95%;
+    top:0;
+    left:0;
+    padding: 3%;
+    color: white;
+    background: #173F5F;
+    text-align: left;
+}
+.imageHolder9:hover .caption9 {
+    opacity: 0.7;
+}
+
+.imageHolder10{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width:40%;
+    height: auto;
+    font-family: 'Armata', monospace;
+    line-height: 1.5;
+}
+.imageHolder10 .caption10{
+    opacity: 0;
+    position: absolute;
+    width:94%;
+    height:91%;
+    top:0;
+    left:0;
+    padding: 3%;
+    color: white;
+    background: #173F5F;
+    text-align: left;
+}
+.imageHolder10:hover .caption10 {
+    opacity: 0.7;
+}
+
+
+.imageHolder11{
+    position: relative;
+    display: inline-block;
+    float:left;
+    width:33%;
+    height: auto;
+    font-family: 'Armata', monospace;
+    line-height: 1.5;
+    padding: 0 1% 0 4.5%;
+
+}
+.imageHolder11 .caption11{
+    opacity: 0;
+    position: absolute;
+    font-size:.91em;
+    width:80.5%;
+    height:94.5%;
+    top:0;
+    left:11%;
+    padding: 3%;
+    color: white;
+    background: #173F5F;
+    text-align: left;
+}
+.imageHolder11:hover .caption11 {
+    opacity: 0.7;
+}
+
+.imageHolder12{
+    position: relative;
+    display: inline-block;
+    float:left;
+    width:45%;
+    height: auto;
+    font-family: 'Armata', monospace;
+    line-height: 1.5;
+}
+.imageHolder12 .caption12{
+    opacity: 0;
+    position: absolute;
+    width:94%;
+    height:93.5%;
+    top:0;
+    left:0;
+    padding: 3%;
+    color: white;
+    background: #173F5F;
+    text-align: left;
+}
+.imageHolder12:hover .caption12 {
+    opacity: 0.7;
+}
